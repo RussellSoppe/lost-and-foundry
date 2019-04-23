@@ -1,0 +1,279 @@
+:root {
+  --primary-color: #332311; /*brown*/
+  --primary-color-light: #564939;
+  --secondary-color: #D05E00; /*orange*/
+  --secondary-color-light: #FFB256;
+  --primary-accent-color: #224AA7; /*blue*/
+  --primary-accent-color-light: #6381C5;
+  --font-color-bright: white;
+
+}
+
+body,
+html{
+	/*height: 100%;
+	width: 100%;*/
+	margin: 0;
+	background-image: linear-gradient(white, #332311);
+}
+
+a{
+	text-decoration: none;
+	color: var(--secondary-color);
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: var(--secondary-color-light);
+}
+
+
+/*nav*/
+nav{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	background: var(--primary-color);
+
+	/*position*/
+	position: sticky;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+
+	/*text color*/
+	color: var(--secondary-color);
+	text-shadow: -2px 1px 3px black;
+	/*var(--font-color-bright)*/
+}
+
+ul{
+	display: flex;
+	justify-content: row;
+	padding-right: 5px;
+}
+
+li{
+	padding: 0px 0px 0px 15px;
+	list-style-type: none;
+}
+
+/*header*/
+header{
+	position: relative;
+}
+
+.header-hero-text-div{
+	position: absolute;
+	top: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 8px;
+	/*right: 50%;*/
+	
+
+}
+
+.header-hero-title{
+	font-size: 3em;
+	color: var(--secondary-color);
+	text-shadow: -2px 1px 3px black;
+}
+
+.header-hero-text{
+	font-size: .855em;
+	color: var(--font-color-bright);
+	font-size: 
+}
+
+/*main*/
+
+/*spotlight sale items*/
+
+.spotlight-sale-items-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	bottom: 25px;
+}
+
+.spotlight-sale-item-card{
+	display: flex;
+	flex-direction: column;
+	padding: 4px 4px 4px 4px;
+	width: 28%;
+	border-radius: 3px;
+	background-color: var(--primary-color);
+}
+
+.spotlight-item-text{
+	color: var(--font-color-bright);
+}
+
+.buy-now-bttn{
+	background: var(--secondary-color-light);
+	border: none;
+	border-radius: 3px;
+	color: var(--primary-color-light);
+	outline: none;
+}
+
+.buy-now-bttn:hover{
+	background: var(--primary-accent-color-light);
+}
+
+
+/*shop all button*/
+
+.shop-all-lg-button-div{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 13px;
+}
+
+.shop-all-button{
+	background: var(--secondary-color);
+	outline: none;
+	border: none;
+	border-radius: 3px;
+	width: 96%;
+	padding: 15px 0px 15px 0px;
+
+}
+
+.shop-all-button:hover{
+	background: var(--secondary-color-light);
+}
+
+/*video intro*/
+
+.video-title{
+	color: var(--primary-color);
+	font-size: 2em;
+	text-align: center;
+}
+
+.video-text{
+	text-align: center;
+}
+
+.intro-video-div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+/*image gallery*/
+.image-gallery-section{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	align-content: center;
+}
+
+.image-gallery{
+	text-align: center;
+	width: 100%;
+	height: 100px;
+	background: var(--secondary-color);
+	color: var(--primary-color);
+}
+
+/*Start Learning Today*/
+.start-learning-text{
+	color: var(--primary-color);
+	font-size: 2em;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+.classes-art-article{
+	display: flex;
+	flex-direction: column;
+	/*align-content: center;*/
+}
+
+.classes-art-div{
+	padding-left: 25px;
+	display: flex;
+	flex-direction: row;
+}
+
+.classes-bckground-art{
+ 	border-radius: 75px;
+}
+
+.classes-text-div{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	right: 40px;
+}
+
+.classes-title-text{
+	font-size: 2em;
+}
+
+.classes-description-text{
+	/*position: relative;
+	bottom: 130px;
+	left: 80px;
+	width: 70%;*/
+}
+
+.other-learning-resources{
+	display: flex;
+	flex-direction: row-reverse;
+	padding-right: 25px;
+	padding-top: 20px;
+}
+
+.classes-bckground-art2{
+ 	
+}
+
+.resource-links-div{
+	position: relative;
+	right: 15px;
+}
+
+.resource-links-title{
+	font-size: 2em;
+}
+
+.resource-links{
+	display: flex;
+	flex-direction: column;
+	font-size: 1.2em;
+}
+
+
+/*footer*/
+
+footer{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footer-section-one{
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-section-two{
+	
+}
+
+.footer-section-three{
+	
+}

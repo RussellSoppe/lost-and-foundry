@@ -113,6 +113,11 @@ header{
 	background-color: var(--primary-color);
 }
 
+.spotlight-img-div{
+ width: 100%;
+ height: 80%;
+}
+
 .spotlight-item-text{
 	color: var(--font-color-bright);
 }

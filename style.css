@@ -261,13 +261,24 @@ header{
 
 footer{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
 .footer-section-one{
 	display: flex;
 	flex-direction: column;
+	padding-left: 10px;
+}
+
+.footer-contact-title-text{
+	font-size: 1.3em;
+	color: var(--secondary-color);
+
+}
+
+.footer-contact-text{
+	padding-top: 4px;
 }
 
 .footer-section-two{
@@ -276,4 +287,10 @@ footer{
 
 .footer-section-three{
 	
+}
+
+.footer-title-date{
+	padding-top: 20px;
+	font-size: .5em;
+	color: var(--secondary-color-light);
 }
